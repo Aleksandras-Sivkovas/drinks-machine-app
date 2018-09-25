@@ -8,7 +8,7 @@ module.exports = {
     entry : path.join(__dirname, 'src/main/js/index.js'),
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'tasks-frontend-app.js',
+      filename: 'drinks-machine-app.js',
     },
     devtool: "inline-sourcemap",
     devServer: {
@@ -25,7 +25,7 @@ module.exports = {
       new CleanWebpackPlugin(['dist']),
       new HtmlWebpackPlugin({
         template: path.join(__dirname, 'src/main/html/index.html'),
-        title: 'Development',
+        title: 'Drinks machine',
       }),
       new CopyWebpackPlugin([
       {
