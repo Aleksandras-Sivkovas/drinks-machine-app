@@ -19,9 +19,9 @@ export const store = createStore(
 
 store.dispatch({
   type:"BILLS_FETCHING",
-  payload: axios.get("/rest/bills")
+  payload: axios.get("/rest/drinks-machine-app-data/bills")
 });
 store.dispatch({
   type:"DRINKS_FETCHING",
-  payload: axios.get("/rest/drinks")
+  payload: axios.get("/rest/drinks-machine-app-data/drinks")
 });

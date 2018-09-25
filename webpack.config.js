@@ -30,7 +30,7 @@ module.exports = {
       new CopyWebpackPlugin([
       {
        from: 'test_data/rest',
-        to: 'rest'
+        to: 'rest/drinks-machine-app-data'
       }
     ],{copyUnmodified : true})
     ],
