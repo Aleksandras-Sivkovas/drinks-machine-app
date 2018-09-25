@@ -1,0 +1,12 @@
+{
+  "name": "drinks-machine-model",
+  "version": "0.0.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "redux": "^4.0.0",
+    "redux-promise-middleware": "^5.1.1",
+    "redux-thunk": "^2.3.0",
+    "reduce-reducers": "^0.4.3"
+  },
+  "main": "index.js"
+}

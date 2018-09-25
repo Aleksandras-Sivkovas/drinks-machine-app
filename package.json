@@ -1,0 +1,36 @@
+{
+  "name": "drinks-machine",
+  "version": "0.0.0",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "redux-logger": "^3.0.6"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode=development",
+    "watch": "webpack --watch",
+    "build": "webpack --progress -p --mode=production"
+  },
+  "dependencies": {
+    "drinks-machine-model": "file:./src/main/js/drinks-machine-model",
+    "drinks-machine-view": "file:./src/main/js/drinks-machine-view",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7"
+  },
+  "main": "/src/main/js/index.js"
+}
