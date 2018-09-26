@@ -15,6 +15,7 @@ module.exports = {
       contentBase: './dist',
       hot: false,
       inline: false,
+      // https:true,
     },
     watchOptions: {
       ignored: /node_modules/,
